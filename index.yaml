@@ -1,0 +1,37 @@
+apiVersion: v1
+entries:
+  wiki:
+  - apiVersion: v2
+    appVersion: latest
+    created: "2023-06-03T12:54:31.335738+07:00"
+    dependencies:
+    - condition: postgresql.enabled
+      name: postgresql
+      repository: https://charts.bitnami.com/bitnami
+      version: 8.10.14
+    description: The most powerful and extensible open source Wiki software.
+    digest: 112715dcd2e4f49223f80deb1e1182b50d32c70faaf9613f38ec74f3037e8e25
+    home: https://wiki.js.org
+    icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
+    keywords:
+    - wiki
+    - documentation
+    - knowledge base
+    - docs
+    - reference
+    - editor
+    maintainers:
+    - email: github@ngpixel.com
+      name: Nicolas Giard
+      url: https://github.com/NGPixel
+    - email: james@fuziontech.net
+      name: James Greenhill
+      url: https://github.com/fuziontech
+    name: wiki
+    sources:
+    - https://github.com/Requarks/wiki
+    type: application
+    urls:
+    - https://dshemin.github.io/charts/wiki-2.2.0.tgz
+    version: 2.2.0
+generated: "2023-06-03T12:54:31.332317+07:00"
