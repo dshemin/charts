@@ -1,16 +1,38 @@
 apiVersion: v1
 entries:
+  pgadmin4:
+  - apiVersion: v2
+    appVersion: "7.5"
+    created: "2023-08-18T17:18:49.451672+07:00"
+    description: pgAdmin4 is a web based administration tool for PostgreSQL database
+    digest: 0765732b5494ab8532d927a0d186be0fbd6c97ce42c3ddbad9359a76e4827713
+    home: https://www.pgadmin.org/
+    icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
+    keywords:
+    - pgadmin
+    - postgres
+    - database
+    - sql
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: pgadmin4
+    sources:
+    - https://github.com/dshemin/charts
+    urls:
+    - https://dshemin.github.io/charts/pgadmin4-0.0.1.tgz
+    version: 0.0.1
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-06-03T12:54:31.335738+07:00"
+    created: "2023-08-18T17:18:49.453988+07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.10.14
     description: The most powerful and extensible open source Wiki software.
-    digest: 112715dcd2e4f49223f80deb1e1182b50d32c70faaf9613f38ec74f3037e8e25
+    digest: 7c9b987791442f5dc2866661b07243617cdc0c173b1273b1f3536477a4177df2
     home: https://wiki.js.org
     icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
     keywords:
@@ -34,4 +56,4 @@ entries:
     urls:
     - https://dshemin.github.io/charts/wiki-2.2.0.tgz
     version: 2.2.0
-generated: "2023-06-03T12:54:31.332317+07:00"
+generated: "2023-08-18T17:18:49.447974+07:00"
