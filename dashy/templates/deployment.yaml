@@ -48,6 +48,9 @@ spec:
               port: http
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
+          volumeMounts:
+            - name: {{ include "dashy.fullname" . }}
+              mountPath: /app/public/conf.yml
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
@@ -60,3 +63,11 @@ spec:
       tolerations:
         {{- toYaml . | nindent 8 }}
       {{- end }}
+      volumes:
+        - name: config-volume
+          configMap:
+            name: {{ include "dashy.fullname" . }}
+            items:
+              - key: conf.yml
+                path: conf.yml
+
