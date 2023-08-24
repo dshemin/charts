@@ -1,11 +1,31 @@
 apiVersion: v1
 entries:
+  dashy:
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-08-25T01:04:06.65927+07:00"
+    description: A Helm chart for dashy dashboard
+    digest: 4d391537c04368dfa7e22748657c0d1d3711205b04afe4a840baaf551fb1a56f
+    home: https://dashy.to/
+    icon: https://dashy.to/img/dashy.png
+    keywords:
+    - dashboard
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: dashy
+    sources:
+    - https://github.com/dshemin/charts
+    type: application
+    urls:
+    - https://dshemin.github.io/charts/dashy-0.1.0.tgz
+    version: 0.1.0
   pgadmin4:
   - apiVersion: v2
     appVersion: "7.5"
-    created: "2023-08-18T17:18:49.451672+07:00"
+    created: "2023-08-25T01:04:06.660586+07:00"
     description: pgAdmin4 is a web based administration tool for PostgreSQL database
-    digest: 0765732b5494ab8532d927a0d186be0fbd6c97ce42c3ddbad9359a76e4827713
+    digest: 6b3342a0b35bd549bba8dbabd8ff5dcb0ebcc9b6446310d221aa8a77c8220b9e
     home: https://www.pgadmin.org/
     icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
     keywords:
@@ -25,14 +45,14 @@ entries:
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-18T17:18:49.453988+07:00"
+    created: "2023-08-25T01:04:06.663271+07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.10.14
     description: The most powerful and extensible open source Wiki software.
-    digest: 7c9b987791442f5dc2866661b07243617cdc0c173b1273b1f3536477a4177df2
+    digest: 5065cc6d71ab5a0fd44200aa2e1566ffae07754031593b55d0a0d4b521b07265
     home: https://wiki.js.org
     icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
     keywords:
@@ -56,4 +76,4 @@ entries:
     urls:
     - https://dshemin.github.io/charts/wiki-2.2.0.tgz
     version: 2.2.0
-generated: "2023-08-18T17:18:49.447974+07:00"
+generated: "2023-08-25T01:04:06.658415+07:00"
