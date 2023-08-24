@@ -1,6 +1,3 @@
-packages = pgadmin \
-	wikijs
-
 release:
-	helm package ${packages}
+	helm package `ls -d */`
 	helm repo index --url https://dshemin.github.io/charts/ .
