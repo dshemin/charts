@@ -3,9 +3,28 @@ entries:
   dashy:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2023-08-25T08:24:23.625808+07:00"
+    created: "2023-08-25T08:29:16.416187+07:00"
     description: A Helm chart for dashy dashboard
-    digest: e27262a50cb7bd9155fba7eee3f98377d38685a33c2322cd9a88162305d7639c
+    digest: 9145893e97d4c9ea4fd46d59bc60cbbb168a74eadd942a96abc0c066508cf7ae
+    home: https://dashy.to/
+    icon: https://dashy.to/img/dashy.png
+    keywords:
+    - dashboard
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: dashy
+    sources:
+    - https://github.com/dshemin/charts
+    type: application
+    urls:
+    - https://dshemin.github.io/charts/dashy-0.1.1.tgz
+    version: 0.1.1
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-08-25T08:29:16.415356+07:00"
+    description: A Helm chart for dashy dashboard
+    digest: a4f9b3d0ad270d967a28cf05d711e8e7a8c399e33b7cbc55625241e445441dce
     home: https://dashy.to/
     icon: https://dashy.to/img/dashy.png
     keywords:
@@ -23,9 +42,9 @@ entries:
   pgadmin4:
   - apiVersion: v2
     appVersion: "7.5"
-    created: "2023-08-25T08:24:23.628201+07:00"
+    created: "2023-08-25T08:29:16.417505+07:00"
     description: pgAdmin4 is a web based administration tool for PostgreSQL database
-    digest: 3f130e77108655d1ac5322caf490c4a8096891ca5a2d93aacc62ada5bc87e6f9
+    digest: f0e6b6ad545ce17d106d21c566dfbbfab870dd6a53ca0a649ff05b1dbe147e10
     home: https://www.pgadmin.org/
     icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
     keywords:
@@ -45,14 +64,14 @@ entries:
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-25T08:24:23.63037+07:00"
+    created: "2023-08-25T08:29:16.420233+07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.10.14
     description: The most powerful and extensible open source Wiki software.
-    digest: 494cb442fc3ea12ca3f40889ba882a09649205f3d9b1dc419b60a7f49da5ba6c
+    digest: a8429c0412678415aa86ab74cc2b1dbcc1332c0293334aa76d2ddccc90ea4509
     home: https://wiki.js.org
     icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
     keywords:
@@ -76,4 +95,4 @@ entries:
     urls:
     - https://dshemin.github.io/charts/wiki-2.2.0.tgz
     version: 2.2.0
-generated: "2023-08-25T08:24:23.623938+07:00"
+generated: "2023-08-25T08:29:16.412066+07:00"
