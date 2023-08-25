@@ -49,7 +49,7 @@ spec:
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
           volumeMounts:
-            - name: {{ include "dashy.fullname" . }}
+            - name: config-volume
               mountPath: /app/public/conf.yml
       {{- with .Values.nodeSelector }}
       nodeSelector:
