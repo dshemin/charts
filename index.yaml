@@ -3,9 +3,28 @@ entries:
   dashy:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2023-08-26T01:59:30.346415+07:00"
+    created: "2023-08-26T02:02:58.618491+07:00"
     description: A Helm chart for dashy dashboard
-    digest: a5021510ac846b7cf4993989a9cec5dddb5c16018366941b9882993d75173dcf
+    digest: e1fc1d839c84aebad7b08439c90d1931fbb0ab96abb19de2998015b4e19e81b5
+    home: https://dashy.to/
+    icon: https://dashy.to/img/dashy.png
+    keywords:
+    - dashboard
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: dashy
+    sources:
+    - https://github.com/dshemin/charts
+    type: application
+    urls:
+    - https://dshemin.github.io/charts/dashy-0.1.5.tgz
+    version: 0.1.5
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2023-08-26T02:02:58.617697+07:00"
+    description: A Helm chart for dashy dashboard
+    digest: 1efdc2c66616c9b93df5ec6a31e0b47bfae095aece6a2408b6a5b13d37d0e052
     home: https://dashy.to/
     icon: https://dashy.to/img/dashy.png
     keywords:
@@ -20,31 +39,12 @@ entries:
     urls:
     - https://dshemin.github.io/charts/dashy-0.1.4.tgz
     version: 0.1.4
-  - apiVersion: v2
-    appVersion: 2.1.1
-    created: "2023-08-26T01:59:30.345787+07:00"
-    description: A Helm chart for dashy dashboard
-    digest: befb2bc4ebd384fa2848b492d1b34ac841a98f1c5f92eb6bfa1d0875e48fba21
-    home: https://dashy.to/
-    icon: https://dashy.to/img/dashy.png
-    keywords:
-    - dashboard
-    maintainers:
-    - email: me@shemindmitry.tech
-      name: dshemin
-    name: dashy
-    sources:
-    - https://github.com/dshemin/charts
-    type: application
-    urls:
-    - https://dshemin.github.io/charts/dashy-0.1.3.tgz
-    version: 0.1.3
   pgadmin4:
   - apiVersion: v2
     appVersion: "7.5"
-    created: "2023-08-26T01:59:30.347519+07:00"
+    created: "2023-08-26T02:02:58.620829+07:00"
     description: pgAdmin4 is a web based administration tool for PostgreSQL database
-    digest: d8a6c2cd7e47288a3c7172a4f2388c31f0585f18c1e7147e4f64f8b6d8705889
+    digest: a4e847c4934b4035ee37bfe89bd89fdf58d2973442ace5cf0e3a4312bdf563d6
     home: https://www.pgadmin.org/
     icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
     keywords:
@@ -64,14 +64,14 @@ entries:
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2023-08-26T01:59:30.349913+07:00"
+    created: "2023-08-26T02:02:58.623605+07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.10.14
     description: The most powerful and extensible open source Wiki software.
-    digest: e65b76bba31efffb4f4a2e7a7414d5c97d892931a217d5130857d9f031631508
+    digest: 5c70322218bcd6f758472259bd8ba33a095cd5c89edb5980e5249fb3d194eb4d
     home: https://wiki.js.org
     icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
     keywords:
@@ -95,4 +95,4 @@ entries:
     urls:
     - https://dshemin.github.io/charts/wiki-2.2.0.tgz
     version: 2.2.0
-generated: "2023-08-26T01:59:30.344234+07:00"
+generated: "2023-08-26T02:02:58.615858+07:00"
