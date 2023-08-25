@@ -51,6 +51,7 @@ spec:
           volumeMounts:
             - name: config-volume
               mountPath: /app/public/conf.yml
+              subPath: conf.yml
       {{- with .Values.nodeSelector }}
       nodeSelector:
         {{- toYaml . | nindent 8 }}
