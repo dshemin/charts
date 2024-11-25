@@ -16,6 +16,28 @@ jobs:
         with:
           fetch-depth: 0
 
+      - name: dashy
+        uses: appany/helm-oci-chart-releaser@v0.3.0
+        with:
+          name: dashy
+          repository: dshemin
+          tag: 0.1.5
+          registry: ghcr.io
+          registry_username: dshemin
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
+          update_dependencies: "true"
+
+      - name: pgadmin4
+        uses: appany/helm-oci-chart-releaser@v0.3.0
+        with:
+          name: pgadmin4
+          repository: dshemin
+          tag: 0.1.0
+          registry: ghcr.io
+          registry_username: dshemin
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
+          update_dependencies: "true"
+
       - name: whodb
         uses: appany/helm-oci-chart-releaser@v0.3.0
         with:
