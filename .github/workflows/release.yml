@@ -23,6 +23,6 @@ jobs:
           repository: dshemin
           tag: 0.1.0
           registry: ghcr.io
-          registry_username: ${{ secrets.REGISTRY_USERNAME }}
-          registry_password: ${{ secrets.REGISTRY_PASSWORD }}
+          registry_username: dshemin
+          registry_password: ${{ secrets.GITHUB_TOKEN }}
           update_dependencies: "true"
