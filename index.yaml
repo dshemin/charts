@@ -3,9 +3,9 @@ entries:
   dashy:
   - apiVersion: v2
     appVersion: 2.1.1
-    created: "2024-11-18T00:10:09.124126+07:00"
+    created: "2024-11-26T00:47:26.498413+07:00"
     description: A Helm chart for dashy dashboard
-    digest: c249047344445025db3d02cca258b88788860f1a97bb4e6e677f4568c1d23858
+    digest: 932f27fb8060b93d22b1ddbe0aa187d14425c2bcb0e80706180a9a869bb3d7d1
     home: https://dashy.to/
     icon: https://dashy.to/img/dashy.png
     keywords:
@@ -23,9 +23,9 @@ entries:
   pgadmin4:
   - apiVersion: v2
     appVersion: "7.5"
-    created: "2024-11-18T00:10:09.127473+07:00"
+    created: "2024-11-26T00:47:26.499647+07:00"
     description: pgAdmin4 is a web based administration tool for PostgreSQL database
-    digest: 45490a36978a36af7f5c51b81c28c3125c66053d9d782e239ef6366955829d3f
+    digest: 9e8c7177e37c670f7624525d0606f4162f0ece12d88b92353a72efdbdd820f4b
     home: https://www.pgadmin.org/
     icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
     keywords:
@@ -45,9 +45,9 @@ entries:
   whodb:
   - apiVersion: v2
     appVersion: 1.16.0
-    created: "2024-11-18T00:10:09.128157+07:00"
-    description: A Helm chart for Kubernetes
-    digest: b63eeb34b419f345d80d2f5d95aa80d2851982a6a15c40db52c30666b6820876
+    created: "2024-11-26T00:47:26.500261+07:00"
+    description: A Helm chart for whodb
+    digest: f90a610bb4b8e4525cd16f2727664f30fe6a5a71eeccae7b7a7f0ee46e5e18d6
     name: whodb
     type: application
     urls:
@@ -56,14 +56,14 @@ entries:
   wiki:
   - apiVersion: v2
     appVersion: latest
-    created: "2024-11-18T00:10:09.131088+07:00"
+    created: "2024-11-26T00:47:26.50295+07:00"
     dependencies:
     - condition: postgresql.enabled
       name: postgresql
       repository: https://charts.bitnami.com/bitnami
       version: 8.10.14
     description: The most powerful and extensible open source Wiki software.
-    digest: edf697d996720e78cfb8b067bee8a8aa0414338a4f46688d1a4396e4a726e43d
+    digest: 0af9847c44bac6c0bf9a236f791ad409503204dbd2e7bfa4025b4a7c234124f0
     home: https://wiki.js.org
     icon: https://cdn.js.wiki/images/wikijs-butterfly.svg
     keywords:
@@ -87,4 +87,4 @@ entries:
     urls:
     - https://dshemin.github.io/charts/wiki-2.2.0.tgz
     version: 2.2.0
-generated: "2024-11-18T00:10:09.123279+07:00"
+generated: "2024-11-26T00:47:26.496726+07:00"
