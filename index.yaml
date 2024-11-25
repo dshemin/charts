@@ -1,0 +1,56 @@
+apiVersion: v1
+entries:
+  dashy:
+  - apiVersion: v2
+    appVersion: 2.1.1
+    created: "2024-11-25T18:16:04.330548628Z"
+    description: A Helm chart for dashy dashboard
+    digest: 56df130867821fc47d77cbf5033767927a393cc76b0c5b615ef0945b3399ad3b
+    home: https://dashy.to/
+    icon: https://dashy.to/img/dashy.png
+    keywords:
+    - dashboard
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: dashy
+    sources:
+    - https://github.com/dshemin/charts
+    type: application
+    urls:
+    - https://github.com/dshemin/charts/releases/download/dashy-0.1.5/dashy-0.1.5.tgz
+    version: 0.1.5
+  pgadmin4:
+  - apiVersion: v2
+    appVersion: "7.5"
+    created: "2024-11-25T18:16:04.462485Z"
+    description: pgAdmin4 is a web based administration tool for PostgreSQL database
+    digest: 6b0da060839af47493be1d5f39d126302e76aa8f07244ce9cd1b8dcca1eb5d16
+    home: https://www.pgadmin.org/
+    icon: https://wiki.postgresql.org/images/3/30/PostgreSQL_logo.3colors.120x120.png
+    keywords:
+    - pgadmin
+    - postgres
+    - database
+    - sql
+    maintainers:
+    - email: me@shemindmitry.tech
+      name: dshemin
+    name: pgadmin4
+    sources:
+    - https://github.com/dshemin/charts
+    urls:
+    - https://github.com/dshemin/charts/releases/download/pgadmin4-0.0.1/pgadmin4-0.0.1.tgz
+    version: 0.0.1
+  whodb:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2024-11-25T18:16:04.571583912Z"
+    description: A Helm chart for whodb
+    digest: 7bbc8917b49d95da2bb834f4d6cef675add73b154d2347ab6b3e193c06f7a443
+    name: whodb
+    type: application
+    urls:
+    - https://github.com/dshemin/charts/releases/download/whodb-0.1.0/whodb-0.1.0.tgz
+    version: 0.1.0
+generated: "2024-11-25T18:16:04.571589643Z"
